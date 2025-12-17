@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+    color: black;
+}
+nav{
+    margin: 0px 0px 30px 0px;
+}
+.nav{
+    padding: 5px;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+}
+.Sitio{
+    padding: 10px 0px 0px 5px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(/img/Fondo\ rojo2.jpeg);
+    background-size: 400px;
+    margin: 50px 0px 0px 0px;
+}
+.espacio2{
+    padding: 20px 0px 20px 0px;
+}
+#Inicio{
+    text-align: center;
+}
+#Inicio h1{
+    text-decoration: underline;
+    margin: 0px 0px 15px 0px;
+}
+#Productos h1{
+    margin: 15px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
+}
+.tamaño{
+    height: 92%;
+    width: 95%;
+}
+#Collares a:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#Collares div h3{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 70px 0px;
+}
+.Collares{
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+#Pulseras a:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#Pulseras div h3{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.Pulseras{
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+.Pulseras.row {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin: 5px 0px 0px 0px;
+}
+footer div{
+    padding: 10px 0px 10px 0px;
+}
+footer .container .row {
+    display: flex; 
+    justify-content: space-around;
+  }
+.centrado{
+    text-align: center;
+    padding: 0px;
+}
